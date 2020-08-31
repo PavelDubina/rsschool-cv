@@ -1,1 +1,1 @@
-https://github.com/PavelDubina/rsschool-cv/cv.md
+https://github.com/PavelDubina/rsschool-cv/blob/gh-pages/cv.md
