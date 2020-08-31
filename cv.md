@@ -10,6 +10,7 @@ Interested in becoming part of a friendly team that wants to progress and create
 * Phone: *+375292215723*
 * [Linkedin](http://linkedin.com/in/павел-дубина-03b8021a4)
 * [GitHub](http://github.com/PavelDubina)
+* [Instagram](https://www.instagram.com/pavelek_name)
 
 ## Technical skills:
 * Programming language: *JavaScript*
