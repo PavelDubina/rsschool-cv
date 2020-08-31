@@ -1,1 +1,1 @@
-https://github.com/PavelDubina/rsschool-cv/cv
+https://github.com/PavelDubina/rsschool-cv/cv.md
