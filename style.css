@@ -1,7 +1,7 @@
 /* Position */
 body {
   width: 1024px;
-  margin: auto;
+  margin: 0 auto;
   background-color: rgb(247, 240, 240);
 }
 .contacts {
@@ -30,6 +30,7 @@ main {
 }
 .education {
   margin-left: 300px;
+  width: 220px;
 }
 .languages {
   margin-left: 520px;
@@ -90,6 +91,11 @@ a[href*="git"]::before {
   display: inline-block;
   vertical-align: middle;
 }
+a[href*="git"]:hover {
+  position: relative;
+  opacity: 1;
+  transform: scale(1.1);
+}
 a[href*="lin"]::before {
   content: "";
   background-image: url(https://img1.freepng.ru/20180716/vyj/kisspng-computer-icons-social-media-linkedin-social-networ-communicator-icon-5b4cf1cbd91ad2.3750261115317692918893.jpg);
@@ -101,6 +107,11 @@ a[href*="lin"]::before {
   margin-left: 3px;
   display: inline-block;
   vertical-align: middle;
+}
+a[href*="lin"]:hover {
+  position: relative;
+  opacity: 1;
+  transform: scale(1.1);
 }
 a[href*="tel"]::before {
   content: "";
@@ -114,6 +125,11 @@ a[href*="tel"]::before {
   display: inline-block;
   vertical-align: middle;
 }
+a[href*="tel"]:hover {
+  position: relative;
+  opacity: 1;
+  transform: scale(1.1);
+}
 a[href*="mail"]::before {
   content: "";
   background-image: url(https://png.pngtree.com/png-clipart/20190520/original/pngtree-email-symbol-icon-png-image_3569787.jpg);
@@ -124,4 +140,9 @@ a[href*="mail"]::before {
   margin-right: 5px;
   display: inline-block;
   vertical-align: middle;
+}
+a[href*="mail"]:hover {
+  position: relative;
+  opacity: 1;
+  transform: scale(1.1);
 }
