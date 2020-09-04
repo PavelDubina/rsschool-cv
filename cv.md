@@ -1,6 +1,6 @@
 # Pavel Dubina
 
-### **Objective**: Junior Front-end Developer
+### **Objective**: Junior Front-end Developer 
 
 Beginner Front-End Developer with little of programming experience.
 Interested in becoming part of a friendly team that wants to progress
@@ -10,16 +10,17 @@ in everything that surrounds me. I like to communicate with new people and
 otherwise develop.
 
 ## Contacts:
-_Email: _pavelek_name@mail.ru*
-\_Phone: _+375292215723\*
-_[Linkedin](http://linkedin.com/in/павел-дубина-03b8021a4)
-_[GitHub](http://github.com/PavelDubina)
+* Email: *pavelek_name@mail.ru*
+* Phone: *+375292215723*
+* [Linkedin](http://linkedin.com/in/павел-дубина-03b8021a4)
+* [GitHub](http://github.com/PavelDubina)
+* [Instagram](https://www.instagram.com/pavelek_name)
 
 ## Technical skills:
-*Programming language: *JavaScript\*
-*Development tools: *Eclipse, VSCode\*
-*Operating system: *Windows\*
-*Version control system: *Git\*
+* Programming language: *JavaScript*
+* Development tools: *Eclipse, VSCode*
+* Operating system: *Windows*
+* Version control system: *Git*
 
 ## Education:
 **Real estate engineer**
@@ -27,7 +28,6 @@ Brest State Technical University
 Brest, 2013-2018
 **Student**
 EPAM UPSkill Lab
-Minsk, 2020
 
 ## Languages:
 **English** - Elementary
