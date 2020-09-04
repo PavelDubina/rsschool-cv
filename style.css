@@ -1,0 +1,127 @@
+/* Position */
+body {
+  width: 1024px;
+  margin: auto;
+  background-color: rgb(247, 240, 240);
+}
+.contacts {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 450px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.text-file {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.education {
+  margin-left: 300px;
+}
+.languages {
+  margin-left: 520px;
+}
+footer {
+  text-align: center;
+}
+
+/* Visual*/
+
+h3 > span {
+  background-color: rgba(184, 181, 181, 0.5);
+  padding: 8px;
+  border-radius: 50px;
+}
+h2 {
+  font-size: 25px;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+p,
+li,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+span > span {
+  font-weight: normal;
+}
+span {
+  font-weight: bold;
+}
+img {
+  border-radius: 100px;
+}
+.about {
+  background-color: rgba(182, 147, 151, 0.2);
+  border-radius: 50px;
+  padding: 10px;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a[href*="git"]::before {
+  content: "";
+  background-image: url(https://pngimg.com/uploads/github/github_PNG58.png);
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 97px;
+  display: inline-block;
+  vertical-align: middle;
+}
+a[href*="lin"]::before {
+  content: "";
+  background-image: url(https://img1.freepng.ru/20180716/vyj/kisspng-computer-icons-social-media-linkedin-social-networ-communicator-icon-5b4cf1cbd91ad2.3750261115317692918893.jpg);
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+a[href*="tel"]::before {
+  content: "";
+  background-image: url(https://pngimg.com/uploads/phone/phone_PNG49052.png);
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+a[href*="mail"]::before {
+  content: "";
+  background-image: url(https://png.pngtree.com/png-clipart/20190520/original/pngtree-email-symbol-icon-png-image_3569787.jpg);
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
