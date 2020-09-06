@@ -1,20 +1,37 @@
 /* Position */
 body {
-  width: 1024px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
   margin: 0 auto;
   background-color: rgb(247, 240, 240);
 }
-.contacts {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 450px;
+@media (max-width: 640px) {
+  body {
+    align-items: center;
+  }
 }
-.head {
+.cont1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.cont2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.name {
   display: flex;
   flex-direction: column;
 }
-.text-file {
+.data {
   display: flex;
   flex-direction: column;
 }
@@ -22,18 +39,49 @@ header {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 640px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.about {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.skills_and_education {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+@media (max-width: 640px) {
+  .skills_and_education {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+.projects_and_languages {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 13%;
+}
+@media (max-width: 640px) {
+  .projects_and_languages {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+.all_data {
+  display: flex;
+  flex-direction: column;
+}
 main {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-.education {
-  margin-left: 300px;
-  width: 220px;
-}
-.languages {
-  margin-left: 520px;
+  flex-direction: column;
 }
 footer {
   text-align: center;
@@ -41,10 +89,12 @@ footer {
 
 /* Visual*/
 
-h3 > span {
+.objective {
+  font-size: 20px;
   background-color: rgba(184, 181, 181, 0.5);
   padding: 8px;
   border-radius: 50px;
+  margin-bottom: 5%;
 }
 h2 {
   font-size: 25px;
@@ -58,10 +108,13 @@ li,
 span {
   font-family: Arial, Helvetica, sans-serif;
 }
-span > span {
+.objective > span {
   font-weight: normal;
 }
-span {
+.span_education {
+  display: block;
+}
+.bold {
   font-weight: bold;
 }
 img {
